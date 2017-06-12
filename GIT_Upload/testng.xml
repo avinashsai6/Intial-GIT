@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="GIT_Upload.GIT_Upload.App"/>
+      <class name="GIT.App"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
