@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="27" failures="1" name="TestSuite" time="2.878" errors="0" skipped="26">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="GIT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\avinash.p\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c3cb29c3e4e8c2af"/>
+    <property name="POM_ARTIFACTID" value="com.Kontakt"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="com.Kontakt"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\avinash.p\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\HP\Unified Functional Testing\"/>
+    <property name="user.name" value="avinash.p"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/GIT/36/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#36"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\avinash.p\AppData\Local"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="JAVA_TOOL_OPTIONS" value="-agentlib:jvmhook"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="avinash.p"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="36"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jre1.8.0_111\"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/GIT/36/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\avinash.p\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="031e132d2f39342ce28d1687a4431fdec38ffed0"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/GIT/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_111"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\avinash.p"/>
+    <property name="USERDNSDOMAIN" value="INFOTREESOLUTIONS.COM"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="TESTING-2"/>
+    <property name="POM_GROUPID" value="com.Kontakt"/>
+    <property name="user.home" value="C:\Users\avinash.p"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-GIT-36"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c3cb29c3e4e8c2af"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\avinash.p"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\BackUP\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_111/bin;C:\Program Files\Java\jdk1.8.0_111/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jre1.8.0_91\bin;D:\apache-maven-3.3.9\bin;C:\Users\avinash.p\AppData\Local\Android\sdk\tools;C:\Users\avinash.p\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\nodejs\;C:\Users\avinash.p\Desktop\libs;C:\Users\avinash.p\AppData\Roaming\npm;C:\Users\avinash.p\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\avinash.p\AppData\Roaming"/>
+    <property name="SIKULI_HOME" value="C:\Program Files (x86)\Sikulix"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="D:\BackUP\apache-maven-3.3.9"/>
+    <property name="java.class.path" value="C:\Users\avinash.p\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;D:\BackUP\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;D:\BackUP\apache-maven-3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main D:\BackUP\apache-maven-3.3.9 C:\Users\avinash.p\.jenkins\war\WEB-INF\lib\remoting-2.59.jar C:\Users\avinash.p\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\avinash.p\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 53840"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_111/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jre1.8.0_91\bin;D:\apache-maven-3.3.9\bin;C:\Users\avinash.p\AppData\Local\Android\sdk\tools;C:\Users\avinash.p\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\nodejs\;C:\Users\avinash.p\Desktop\libs;C:\Users\avinash.p\AppData\Roaming\npm;C:\Users\avinash.p\AppData\Local\Programs\Git\cmd"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_111/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 23 Stepping 10, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="D:\BackUP\apache-maven-3.3.9"/>
+    <property name="IBM_JAVA_OPTIONS" value="-Xrunjvmhook -Xbootclasspath/a:&quot;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar&quot;"/>
+    <property name="java.io.tmpdir" value="C:\Users\avinash.p\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\avinash.p\.jenkins"/>
+    <property name="PATH+MAVEN" value="D:\BackUP\apache-maven-3.3.9/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/GIT/36/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\avinash.p\git\com.Kontakt_Tab"/>
+    <property name="_JAVA_OPTIONS" value="-Xrunjvmhook -Xbootclasspath/a:&quot;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes&quot;;&quot;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar&quot;"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/GIT/"/>
+    <property name="LOGONSERVER" value="\\INFOTEEAD3"/>
+    <property name="USERDOMAIN" value="INFOTREESOLUTIO"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="D:\BackUP\apache-maven-3.3.9"/>
+    <property name="python" value="C:\Python27;C:\Python27\Scripts;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="36"/>
+    <property name="ANDROID_HOME" value="C:\Users\avinash.p\AppData\Local\Android\sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="170a"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="031e132d2f39342ce28d1687a4431fdec38ffed0"/>
+    <property name="=C:" value="C:\Users\avinash.p\Desktop"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\avinash.p\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\avinash.p\.jenkins\workspace\GIT"/>
+    <property name="maven3.interceptor.common" value="C:\Users\avinash.p\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="GIT_URL" value="https://github.com/avinashsai6/Intial-GIT.git"/>
+  </properties>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="setUp" time="2.861">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Testing-2&apos;, ip: &apos;172.16.20.88&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Testing-2&apos;, ip: &apos;172.16.20.88&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:139)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:161)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:170)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:82)
+	at KontaktTelecom.KontaktTelecom.setUp(KontaktTelecom.java:42)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 172.16.21.190:4723 [/172.16.21.190] failed: Connection refused: connect
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Testing-2&apos;, ip: &apos;172.16.20.88&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	... 42 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 172.16.21.190:4723 [/172.16.21.190] failed: Connection refused: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:67)
+	... 43 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 56 more
+</failure>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="SetUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="EnableServiceStickers" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0.017">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="StickersKeyBoardSelection" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="TwitterChannelSelection" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="NewMessage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker3" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker4" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker5" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker6" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker7" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="Sticker8" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="KontaktTelecom.KontaktTelecom" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

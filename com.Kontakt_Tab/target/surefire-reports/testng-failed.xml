@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="KontaktTelecom.KontaktTelecom">
+        <methods>
+          <include name="TwitterChannelSelection"/>
+          <include name="SetUp"/>
+          <include name="Sticker7"/>
+          <include name="Sticker8"/>
+          <include name="setUp"/>
+          <include name="Sticker5"/>
+          <include name="Sticker6"/>
+          <include name="Sticker3"/>
+          <include name="EnableServiceStickers"/>
+          <include name="Sticker4"/>
+          <include name="Sticker1"/>
+          <include name="Sticker2"/>
+          <include name="NewMessage"/>
+          <include name="StickersKeyBoardSelection"/>
+        </methods>
+      </class> <!-- KontaktTelecom.KontaktTelecom -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
